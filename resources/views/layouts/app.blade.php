@@ -1,0 +1,5 @@
+@include('includes.header')
+@include('includes.nav')
+@include('includes.messages')
+@yield('content')
+@include('includes.footer')

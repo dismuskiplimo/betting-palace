@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "PlutoSansLight";
+    src: url("../fonts/PlutoSansLight.ttf");
+    src: url("../fonts/PlutoSansLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: "PlutoSansMedium";
+    src: url("../fonts/PlutoSansMedium.ttf");
+    src: url("../fonts/PlutoSansMedium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "PlutoSansRegular";
+    src: url("../fonts/PlutoSansRegular.ttf");
+    src: url("../fonts/PlutoSansRegular.woff") format("woff");
+}
+
+html, body{
+    background-color: #000;
+    font-family: 'PlutoSansRegular', 'arial';
+    font-size: .90rem;
+    color: #fff;
+    min-height: 100vh;
+}
+
+/* Navbar */
+
+.dropdown-menu {
+    margin-top: 0;
+  }
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+   
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+   
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
